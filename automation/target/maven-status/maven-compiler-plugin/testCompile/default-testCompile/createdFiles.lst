@@ -1,0 +1,11 @@
+web\automation\utilities\PropertiesFileReader.class
+web\automation\utilities\PageObject.class
+web\automation\tests\SignUpPageTests.class
+web\automation\pages\SignUpPage.class
+web\automation\utilities\Hooks.class
+web\automation\utilities\ConfigReader.class
+web\automation\pages\HomePage.class
+web\automation\utilities\ScreenshotGenerator.class
+web\automation\utilities\Listeners.class
+web\automation\utilities\RetryAnalyzer.class
+web\automation\utilities\BrowserConfiguration.class

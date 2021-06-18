@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="66286" started-at="2021-06-03T11:23:26 IST" finished-at="2021-06-03T11:24:32 IST">
+    <groups>
+    </groups>
+    <test name="ChromeBrowserTest" duration-ms="66286" started-at="2021-06-03T11:23:26 IST" finished-at="2021-06-03T11:24:32 IST">
+      <class name="web.automation.tests.SignUpPageTests">
+        <test-method status="PASS" signature="openApp(java.lang.String)[pri:0, instance:web.automation.tests.SignUpPageTests@28c4711c]" name="openApp" is-config="true" duration-ms="25380" started-at="2021-06-03T11:23:26 IST" finished-at="2021-06-03T11:23:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="signUpWithValidCredential()[pri:0, instance:web.automation.tests.SignUpPageTests@28c4711c]" name="signUpWithValidCredential" duration-ms="5896" started-at="2021-06-03T11:23:51 IST" description="User signups with valid credential" finished-at="2021-06-03T11:23:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpWithValidCredential -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:web.automation.tests.SignUpPageTests@28c4711c]" name="closeDriver" is-config="true" duration-ms="717" started-at="2021-06-03T11:23:58 IST" finished-at="2021-06-03T11:23:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="openApp(java.lang.String)[pri:0, instance:web.automation.tests.SignUpPageTests@28c4711c]" name="openApp" is-config="true" duration-ms="30152" started-at="2021-06-03T11:23:59 IST" finished-at="2021-06-03T11:24:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="signUpWithValidCredential()[pri:0, instance:web.automation.tests.SignUpPageTests@28c4711c]" name="signUpWithValidCredential" duration-ms="2397" started-at="2021-06-03T11:24:29 IST" description="User signups with valid credential" finished-at="2021-06-03T11:24:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpWithValidCredential -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:web.automation.tests.SignUpPageTests@28c4711c]" name="closeDriver" is-config="true" duration-ms="674" started-at="2021-06-03T11:24:32 IST" finished-at="2021-06-03T11:24:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- web.automation.tests.SignUpPageTests -->
+    </test> <!-- ChromeBrowserTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>

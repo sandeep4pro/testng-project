@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!--<suite name="TestSuite" parallel="tests" thread-count="2">-->
+<suite name="TestSuite">
+    <listeners>
+        <listener class-name="web.automation.utilities.Listeners"/>
+    </listeners>
+    <test name="ChromeBrowserTest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="web.automation.tests.SignUpPageTests"/>
+        </classes>
+    </test>
+
+    <test name="FirefoxBrowserTest">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="web.automation.tests.SignUpPageTests"/>
+        </classes>
+    </test>
+</suite>
